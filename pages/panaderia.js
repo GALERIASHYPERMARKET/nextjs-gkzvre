@@ -12,8 +12,8 @@ return(
       <Image
       src={logo}
       alt="Picture of the author"
-      layout='fill'
-      objectFit='contain'
+      width="50"
+      height="50"
       />
       <p class="descripcion">Televisor1</p>
       </Link>
@@ -25,10 +25,10 @@ return(
       <Image
       src={logo}
       alt="Picture of the author"
-      layout='fill'
-      objectFit='contain'
+      width="50"
+      height="50"
       />
-      <p class="descripcion">Televisor 3</p>
+      <p class="descripcion">Televisor 2 </p>
       </Link>
       
     </div>
@@ -37,8 +37,8 @@ return(
       <Link href="/panaderia3">
       <Image
       src={logo}
-      alt="Picture of the author"
-      layout='fill'
+      width="50"
+      height="50"
       objectFit='contain'
       />
       <p class="descripcion">Televisor 3</p>
