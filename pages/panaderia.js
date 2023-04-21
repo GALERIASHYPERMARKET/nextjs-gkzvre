@@ -9,7 +9,7 @@ return(
   <div style={{backgroundImage:`url(${bg.src})`, 
   height: '100vh',
   margin: '0'}}>
-    <div style={{color:'Green', marginLeft:'150px', fontFamily:'Geneva'}}>
+    <div style={{color:'Green', marginLeft:'150px', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"150px"}}>
         PANADERIA
     </div>
     <section className={styles.container}>
@@ -21,7 +21,7 @@ return(
       width="50"
       height="50"
       />
-      <p class="descripcion">Televisor1</p>
+      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor1</p>
       </Link>
       
     </div>
@@ -34,7 +34,7 @@ return(
       width="50"
       height="50"
       />
-      <p class="descripcion">Televisor 2 </p>
+      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 2 </p>
       </Link>
       
     </div>
@@ -47,7 +47,7 @@ return(
       height="50"
       objectFit='contain'
       />
-      <p class="descripcion">Televisor 3</p>
+      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 3</p>
       </Link>
       
     </div>
