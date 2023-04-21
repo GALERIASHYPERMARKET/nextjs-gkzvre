@@ -2,12 +2,12 @@
   background-image: "../utils/logoEmpresarial.png";
 }
 .container{
-  display: flex;
-  flex-wrap: wrap;
-  /* for horizontal aligning of child divs */
+  display: grid;
   justify-content: center;
-  /* for vertical aligning */
-  align-items: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
 }
 .televisores{
   width: '100%'; 
