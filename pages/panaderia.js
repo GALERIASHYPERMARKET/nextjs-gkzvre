@@ -3,9 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from '../styles/panaderia.module.css';
 import logo from "../utils/television.png"
+import bg from '../utils/BACKGROUND.png'
 export default function panaderia(){
 return(
-  <div className={styles.main}>
+  <div style={{backgroundImage:`url(${bg.src})`, 
+  height: '100vh',
+  margin: '0'}}>
+    <div style={{color:'Green', marginLeft:'150px', fontFamily:'Geneva'}}>
+        PANADERIA
+    </div>
     <section className={styles.container}>
     <div className={styles.televisores}>
       <Link href="/panaderia1">
