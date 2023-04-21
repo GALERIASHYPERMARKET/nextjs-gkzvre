@@ -17,5 +17,6 @@ export const navLinks = [
     name:"Panaderia",
     path: "/panaderia"
   },
+  
 
 ];
