@@ -5,7 +5,7 @@ import styles from '../styles/panaderia.module.css';
 import logo from "../utils/television.png";
 export default function panaderia(){
 return(
-  <div style={{}}>
+  <div style={{f}}>
     <section className={styles.container}>
     <div className={styles.televisores}>
       <Link href="/panaderia1">
