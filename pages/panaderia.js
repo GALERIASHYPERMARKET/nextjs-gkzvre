@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from '../styles/panaderia.module.css';
-import logo from "../utils/logoEmpresarial.png"
+import logo from "../utils/television.png"
 export default function panaderia(){
 return(
   <div>
