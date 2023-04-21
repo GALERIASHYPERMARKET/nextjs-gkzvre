@@ -20,7 +20,7 @@ return(
       
     </div>
 
-    <div class="Televisores">
+    <div className={styles.televisores}>
       <Link href="/panaderia2">
       <Image
       src={logo}
@@ -33,7 +33,7 @@ return(
       
     </div>
 
-    <div class="Televisores">
+    <div className={styles.televisores}>
       <Link href="/panaderia3">
       <Image
       src={logo}
