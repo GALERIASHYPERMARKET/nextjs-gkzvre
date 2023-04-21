@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image'
 import Header from "../components/Header";
-
+import logo from "../utils/logoEmpresarial.png"
 export default function Home() {
   
   return (
@@ -12,7 +12,12 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <Header/>
-      <img src="../utils/logoEmpresarial.png" alt="" />
+      <Image
+      src={logo}
+      alt="Picture of the author"
+      width={500}
+      height={500}/>
+      
     </div>
   );
 }
