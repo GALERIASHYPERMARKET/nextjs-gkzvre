@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       
-      <nav style={{ display: "flex", flexDirection: "row",  }}>
+      <nav style={{ display: "flex", flexDirection: "row",backgroundColor:"Green"  }}>
         {navLinks?.map((link, index) => {
           return (
             <ul style={{listStyleType: "none" }}>
