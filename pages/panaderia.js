@@ -9,26 +9,27 @@ return(
   <div style={{backgroundImage:`url(${bg.src})`, 
   height: '100vh',
   margin: '0'}}>
-    <div style={{color:'Green', marginLeft:'150px', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"150px"}}>
+    <div style={{color:'Green', marginLeft:'150px', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"20px"}}>
         PANADERIA
     </div>
     <section className={styles.container}>
     <div className={styles.televisores}>
       <Link href="/panaderia1">
-      <Image
+      <Image className={styles.televisor}
       src={logo}
       alt="Picture of the author"
       width="50"
       height="50"
       />
-      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor1</p>
+      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 1</p>
       </Link>
       
     </div>
 
     <div className={styles.televisores}>
       <Link href="/panaderia2">
-      <Image
+      <Image 
+     className={styles.televisor}
       src={logo}
       alt="Picture of the author"
       width="50"
@@ -42,6 +43,7 @@ return(
     <div className={styles.televisores}>
       <Link href="/panaderia3">
       <Image
+      className={styles.televisor}
       src={logo}
       width="50"
       height="50"

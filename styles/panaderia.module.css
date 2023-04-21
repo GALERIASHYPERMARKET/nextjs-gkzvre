@@ -1,6 +1,6 @@
 .main{
   background-image: "../utils/logoEmpresarial.png";
-  font-family:;
+  
 }
 .container{
   display: grid;
@@ -19,4 +19,7 @@
 .descripcion{
  font-family: 'Courier New', Courier, monospace;
  color: black;
+}
+.televisor{
+  margin-left: 18px;
 }
