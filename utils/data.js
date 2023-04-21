@@ -1,7 +1,7 @@
 
 
 export const navLinks = [
-  { name: "Menu", 
+  { name: "Gourmet", 
    path: "/gourmet" 
   },
   {
@@ -13,7 +13,7 @@ export const navLinks = [
     path: "/carniceria",
   },
   {
-    name: "",
+    name: "Pollo",
     path: "/blog",
   },
   {
