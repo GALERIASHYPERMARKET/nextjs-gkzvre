@@ -2,10 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from '../styles/panaderia.module.css';
-import logo from "../utils/television.png"
+import logo from "../utils/television.png";
 export default function panaderia(){
 return(
-  <div style={{backgroundImage=}}>
+  <div style={{}}>
     <section className={styles.container}>
     <div className={styles.televisores}>
       <Link href="/panaderia1">
