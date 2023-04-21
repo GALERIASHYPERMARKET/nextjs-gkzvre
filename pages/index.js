@@ -15,9 +15,8 @@ export default function Home() {
       <Image
       src={logo}
       alt="Picture of the author"
-      width={500}
-      height={500}/>
-      
+       objectFit='cover' width={400} height={350} 
+      />
     </div>
   );
 }
