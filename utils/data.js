@@ -12,12 +12,10 @@ export const navLinks = [
     name: "Carniceria",
     path: "/carniceria",
   },
+  
   {
-    name: "Pollo",
-    path: "/blog",
-  },
-  {
-    name:"panaderia",
+    name:"Panaderia",
     path: "/panaderia"
-  }
+  },
+
 ];
