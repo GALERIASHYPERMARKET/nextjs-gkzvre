@@ -1,5 +1,6 @@
 import Articulos from "../components/Articulos.jsx"
 import { useEffect, useState } from "react";
+import { supabase } from "../utils/supabase";
 export default function carniceria(){
   //aqui se conectara a la base de datos
   const [articulos, setarticulos] = useState([]);
