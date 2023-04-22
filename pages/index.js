@@ -12,7 +12,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <Header/>
-      <div className="flex flex-row min-h-screen justify-center items-center">
+      <div className="flex flex-row min-h-screen justify-center items-center mb-32">
       <Image 
       src={logo}
       alt="Picture of the author"
