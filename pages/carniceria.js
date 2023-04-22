@@ -27,7 +27,7 @@ export default function carniceria(){
       const { data, error } = await supabase
         .from("ARTICULO")
         .select("descripcion, id_departamento, precio")
-        .eq("id_departamento", id_departamento).range(limite, limite+3);
+        .eq("id_departamento", id_departamento);
  
       if (error) throw error;
       setarticulos(data);
