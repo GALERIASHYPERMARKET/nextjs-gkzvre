@@ -11,6 +11,10 @@ export default function carniceria(){
     const interval = setInterval(() => {
       
       cargarArticulos(1,contador);
+      setcontador(contador+1);
+      if(contador==limite-4){
+        setcontador(0)
+      }
      },60*1000);
   }, []);
 
