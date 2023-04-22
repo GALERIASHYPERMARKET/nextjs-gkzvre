@@ -1,7 +1,7 @@
 import Articulos from "../components/Articulos.jsx"
 import { useEffect, useState } from "react";
 import { supabase } from "../lib/initSupabase.js";
-
+import articulosd from "../utils/data.js"
 export default function carniceria(){
   //aqui se conectara a la base de datos
   const [articulos, setarticulos] = useState([]);
@@ -10,7 +10,7 @@ export default function carniceria(){
   
   
   useEffect(() => {
-    cargarArticulos();
+    cargarA();
   }, []);
 
   const cargarArticulos = async () => {
@@ -31,7 +31,10 @@ export default function carniceria(){
       
     }
   };
-
+  const cargarA=()=>{
+    setarticulos(articulosd);
+  }
+  
   const numerodeArticulos = async (id_departamento) =>{
      try{
       const { count, error } = await supabase
