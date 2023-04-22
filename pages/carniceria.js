@@ -8,7 +8,7 @@ export default function carniceria(){
   const [contador, setcontador]=useState(0);
   const [limite, setlimite]=useState(0);
   
-  numerodeArticulos(1);
+  
   useEffect(() => {
     const interval = setInterval(() => {
       
