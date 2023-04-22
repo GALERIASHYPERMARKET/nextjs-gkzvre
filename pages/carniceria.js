@@ -24,6 +24,7 @@ export default function carniceria(){
  
       if (error) throw error;
       setarticulos(data);
+      console.log(data);
     } catch (error) {
       alert(error.message);
     } finally {
