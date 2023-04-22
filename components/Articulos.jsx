@@ -9,7 +9,7 @@ const Articulos = ({ data }) => {
           <p >
             {item.precio}
           </p>
-          <p>Reps:{item.id_departamento}</p>
+          <p></p>
           
         </div>
       ))}
