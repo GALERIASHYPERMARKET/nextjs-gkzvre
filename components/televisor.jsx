@@ -1,8 +1,8 @@
 
 
 
-export default televisor(){
-  const [isHover, setIsHover] = useState(false);
+export default function televisor(){
+    
   return(
     <televisor>
     </televisor>

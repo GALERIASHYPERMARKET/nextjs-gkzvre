@@ -12,7 +12,7 @@ export default function Header() {
           return (
             <ul style={{listStyleType: "none",paddingLeft:"5px",  }}>
               <Link href={link.path}>
-                <li className="hover:text-blue hover:bg-gray-400 font-mono"  key={index}>{link.name}</li>
+                <li className="hover:text-blue hover:bg-green-400 font-mono"  key={index}>{link.name}</li>
               </Link>
             </ul>
           );

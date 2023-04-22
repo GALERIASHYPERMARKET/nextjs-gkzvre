@@ -12,7 +12,7 @@ return(
     <div style={{color:'LimeGreen', marginLeft:'150px', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"20px"}}>
         PANADERIA
     </div>
-    <section className={styles.container}>
+    <section className="flex flex-row min-h-screen justify-center items-center">
     <div className={styles.televisores}>
       <Link href="/panaderia1">
       <Image className={styles.televisor}
