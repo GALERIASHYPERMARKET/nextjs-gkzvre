@@ -3,14 +3,7 @@ import {navLinks} from "../utils/data"
 import { useState } from 'react';
 export default function Header() {
 
-  const [isHover, setIsHover] = useState(false);
-
-   const handleMouseEnter = () => {
-      setIsHover(true);
-   };
-   const handleMouseLeave = () => {
-      setIsHover(false);
-   };
+ 
   return (
     <header>
       
@@ -19,7 +12,7 @@ export default function Header() {
           return (
             <ul style={{listStyleType: "none",paddingLeft:"5px",  }}>
               <Link href={link.path}>
-                <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{backgroundColor:isHover?"black": "", fontFamily:"Verdana, Arial, Helvetica, sans-serif",color:"white",  }}  key={index}>{link.name}</li>
+                <li className="hover:text-blue hover:bg-gray-400 font-mono"  key={index}>{link.name}</li>
               </Link>
             </ul>
           );
