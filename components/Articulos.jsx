@@ -1,15 +1,15 @@
 const Articulos = ({ data }) => {
   return (
-    <div className={}>
+    <div >
       {data?.map((item) => (
-        <div key={} className={}>
-          <p className={}>
+        <div  >
+          <p >
             {item.descripcion}
           </p>
-          <p className={}>
+          <p >
             {item.precio}
           </p>
-          <p className={}>Reps:{item.id_departamento}</p>
+          <p>Reps:{item.id_departamento}</p>
           
         </div>
       ))}
