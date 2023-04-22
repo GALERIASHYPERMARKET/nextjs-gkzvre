@@ -9,10 +9,12 @@ return(
   <div style={{backgroundImage:`url(${bg.src})`, 
   height: '100vh',
   margin: '0'}}>
-    <div style={{color:'LimeGreen', marginLeft:'150px', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"20px"}}>
+    <div className="flex items-center justify-center " style={{color:'LimeGreen', fontFamily:"Verdana, Arial, Helvetica, sans-serif", fontSize:"20px"}}>
         PANADERIA
     </div>
     <section className="flex flex-row min-h-screen justify-center items-center">
+    
+    <div className="flex flex-row  space-x-20 w-500 h-500">
     <div className={styles.televisores}>
       <Link href="/panaderia1">
       <Image className={styles.televisor}
@@ -25,36 +27,31 @@ return(
       </Link>
       
     </div>
-
     <div className={styles.televisores}>
-      <Link href="/panaderia2">
-      <Image 
-     className={styles.televisor}
+      <Link href="/panaderia1">
+      <Image className={styles.televisor}
       src={logo}
       alt="Picture of the author"
       width="50"
       height="50"
       />
-      <p style={{color:"LimeGreen",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 2 </p>
+      <p style={{color:"LimeGreen",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 1</p>
       </Link>
       
     </div>
-
     <div className={styles.televisores}>
-      <Link href="/panaderia3">
-      <Image
-      className={styles.televisor}
+      <Link href="/panaderia1">
+      <Image className={styles.televisor}
       src={logo}
+      alt="Picture of the author"
       width="50"
       height="50"
-      objectFit='contain'
       />
-      <p style={{color:"LimeGreen",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 3</p>
+      <p style={{color:"LimeGreen",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 1</p>
       </Link>
       
     </div>
-
-    
+    </div>
     
     </section>
     
