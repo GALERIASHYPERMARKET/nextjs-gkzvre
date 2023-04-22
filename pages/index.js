@@ -12,11 +12,14 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <Header/>
-      <Image
+      <div className="flex flex-row min-h-screen justify-center items-center">
+      <Image 
       src={logo}
       alt="Picture of the author"
-       objectFit='cover' width={400} height={350} 
+       objectFit='cover' width={500} height={350} 
       />
+      </div>
+      
     </div>
   );
 }

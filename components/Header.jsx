@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header>
       
-      <nav className ="flex items-center justify-between">
+      <nav className ="flex items-center justify-between bg-lime-500">
         {navLinks?.map((link, index) => {
           return (
             <ul style={{listStyleType: "none",paddingLeft:"5px",  }}>
