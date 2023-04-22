@@ -21,7 +21,7 @@ return(
       width="50"
       height="50"
       />
-      <p style={{color:"Green",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 1</p>
+      <p style={{color:"LimeGreen",fontFamily:"Verdana, Arial, Helvetica, sans-serif"}} class="descripcion">Televisor 1</p>
       </Link>
       
     </div>

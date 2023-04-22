@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header>
       
-      <nav style={{ display: "flex", flexDirection: "row",backgroundColor:"Green", justifyContent: "space-between"  }}>
+      <nav className ="flex items-center justify-between">
         {navLinks?.map((link, index) => {
           return (
             <ul style={{listStyleType: "none",paddingLeft:"5px",  }}>
