@@ -1,29 +1,20 @@
-const WorkoutCard = ({ data }) => {
+const Articulos = ({ data }) => {
   return (
-    <div className={styles.workoutContainer}>
+    <div className={}>
       {data?.map((item) => (
-        <div key={item.id} className={styles.container}>
-          <p className={styles.title}>
-            {" "}
-            Title: {""}
-            {item.title}
+        <div key={} className={}>
+          <p className={}>
+            {item.descripcion}
           </p>
-          <p className={styles.load}>
-            {" "}
-            Load(kg): {"  "}
-            {item.loads}
+          <p className={}>
+            {item.precio}
           </p>
-          <p className={styles.reps}>Reps:{item.reps}</p>
-          <p className={styles.time}>
-            created:{" "}
-            {formatDistanceToNow(new Date(item.inserted_at), {
-              addSuffix: true,
-            })}
-          </p>
+          <p className={}>Reps:{item.id_departamento}</p>
+          
         </div>
       ))}
     </div>
   );
  };
  
- export default WorkoutCard;
+ export default Articulos;
