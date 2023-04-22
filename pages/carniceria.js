@@ -1,6 +1,6 @@
 import Articulos from "../components/Articulos.jsx"
 import { useEffect, useState } from "react";
-import { supabase } from "../lib/initSupabase.js";
+import {supabase}  from "../lib/initSupabase.js";
 import {articulosd} from "../utils/data.js"
 export default function carniceria(){
   //aqui se conectara a la base de datos
@@ -14,16 +14,16 @@ export default function carniceria(){
   }, []);
 
   const cargarArticulos = async () => {
-    
+    console.log(supabase);
     try {
       
       const { data, error } = await supabase
         .from("ARTICULO")
-        .select("descripcion, id_departamento, precio")
+        .select("*")
  
       if (error) throw error;
       setarticulos(data);
-      console.log(data);
+      
     } catch (error) {
       alert(error.message);
     } finally {
