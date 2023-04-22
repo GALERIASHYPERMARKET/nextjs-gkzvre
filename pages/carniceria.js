@@ -10,24 +10,17 @@ export default function carniceria(){
   
   
   useEffect(() => {
-    const interval = setInterval(() => {
-      
-      cargarArticulos(1,contador);
-      setcontador(contador+1);
-      if(contador==limite-4){
-        setcontador(0)
-      }
-     },60*1000);
+    cargarArticulos();
   }, []);
 
-  const cargarArticulos = async (id_departamento,limite) => {
+  const cargarArticulos = async () => {
     
     try {
       
       const { data, error } = await supabase
         .from("ARTICULO")
         .select("descripcion, id_departamento, precio")
-        .eq("id_departamento", id_departamento);
+        ;
  
       if (error) throw error;
       setarticulos(data);
