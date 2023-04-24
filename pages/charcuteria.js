@@ -5,7 +5,7 @@ function charcuteria(){
 
   return (
     <>
-      <Articulos data={articulos}/>
+     <div>hola</div>
     </>
   )
 }
