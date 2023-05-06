@@ -1,6 +1,6 @@
 const Articulos = ({ data }) => {
   return (
-    <div className="flex flex-col space-y-8 text-5xl text-white  w-3/5">
+    <div className="">
       {data?.map((item) => (
         <div  className=" flex flex-row pt-12 justify-between">
           <div className="font-bold  text-left ">

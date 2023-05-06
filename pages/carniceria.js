@@ -2,6 +2,7 @@ import Articulos from "../components/Articulos"
 import { useEffect, useState } from "react";
 import supabase  from "../lib/supabase.js";
 import {articulosd} from "../utils/data.js"
+import productos from "../styles/productos.module.css";
 export default function carniceria(){
   //aqui se conectara a la base de datos
   const [articulos, setarticulos] = useState([]);
@@ -48,10 +49,9 @@ export default function carniceria(){
   }
 
   return (
-    <div className=" p-6 mx-0 bg-charcuteria bg-cover h-screen w-screen flex flex-col items-center space-y-12">
-        <div className="flex flex-col space-y-6 items-center">
-          <h1 className="font-bold text-5xl text-white">Carniceria</h1>
-          <h3 className="font-bold text-5xl text-white">Productos para ti</h3>
+    <div className="">
+        <div className="">
+          
         </div>
         
          <Articulos data={articulos}/>

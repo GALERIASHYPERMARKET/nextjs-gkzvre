@@ -3,12 +3,26 @@ export const navLinks = [
      path: "/gourmet" 
     },
     {
-      name: "Charcuteria",
-      path: "/charcuteria",
+      name: "Embutidos",
+      path: "/embutidos",
+    },
+
+    {
+      name: "Quesos",
+      path: "/quesos",
     },
     {
       name: "Carniceria",
       path: "/carniceria",
+    },
+    {
+      name: "Pollo",
+      path: "/pollo",
+    },
+
+    {
+      name: "Cerdo",
+      path: "/cerdo",
     },
     
     {
@@ -20,12 +34,12 @@ export const navLinks = [
         path: "/panaderia"
       },
       {
-        name:"Jugos",
-        path: "/panaderia"
+        name:"Dulceria",
+        path: "/dulceria"
       },
       {
-        name:"Desayunos",
-        path: "/panaderia"
+        name:"Pasteles",
+        path: "/pasteles"
       },
     
   
